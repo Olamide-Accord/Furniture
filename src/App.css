@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --primary: #111;
+  --primary-2: #1e1e1e;
+  --secondary: #fff;
+  --secondary-2: #f1f3f5;
+  --hover: hsla(0, 0%, 100%, .075);
+  --hover-1: hsla(0, 0%, 100%, .15);
+  --hover-2: hsla(0, 0%, 100%, .25);
+  --selection: var(--purple);
+  --text-base: #fff;
+  --text-primary: #fff;
+  --text-secondary: #000;
+  --purple: #f81ce5;
+  --cyan: #22b8cf;
+  color-scheme: dark;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+}
+html{
+  font-size: 95%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  overscroll-behavior-x: none;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  background-color: var(--primary);
+  color: var(--text-base);
+}
+main{
+  padding: 7rem 7% 3rem;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-base)
+}
+h1, h2{
+  font-family: 'Kanit', sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --primary: #fff;
+    --primary-2: #f1f3f5;
+    --secondary: #000;
+    --secondary-2: #111;
+    --selection: var(--cyan);
+    --text-base: #000;
+    --text-primary: #000;
+    --text-secondary: #fff;
+    --hover: rgba(0, 0, 0, .075);
+    --hover-1: rgba(0, 0, 0, .15);
+    --hover-2: rgba(0, 0, 0, .25);
+  }
+}
