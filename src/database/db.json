@@ -1,0 +1,571 @@
+{
+  "collection": 
+  [
+    {
+      "id": "rec43w3ipXvP28vog",
+      "fields": {
+        "company": "ikea",
+        "colors": [
+          "#f15025",
+          "#222"
+        ],
+        "featured": true,
+        "price": 999,
+        "name": "high-back bench",
+        "image": [
+          {
+            "id": "attcvDDMikF6G2iNi",
+            "width": 1000,
+            "height": 639,
+            "url": "https://course-api.com/images/store/product-1.jpeg",
+            "filename": "product-1.jpeg",
+            "size": 62864,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-1.jpeg",
+                "width": 56,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-1.jpeg",
+                "width": 801,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-1.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec4f2RIftFCb7aHh",
+      "fields": {
+        "company": "marcos",
+        "colors": [
+          "#f15025",
+          "#222"
+        ],
+        "price": 7999,
+        "name": "albany table",
+        "image": [
+          {
+            "id": "attP2cUyxU35M1zbw",
+            "width": 1000,
+            "height": 1500,
+            "url": "https://course-api.com/images/store/product-2.jpeg",
+            "filename": "product-1.jpeg",
+            "size": 119274,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-2.jpeg",
+                "width": 24,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-2.jpeg",
+                "width": 512,
+                "height": 768
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-2.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec8kkCmSiMkbkiko",
+      "fields": {
+        "company": "caressa",
+        "colors": [
+          "#222",
+          "#0000ff",
+          "#f15025"
+        ],
+        "price": 2599,
+        "name": "accent chair",
+        "image": [
+          {
+            "id": "attIieysyB9zQmQo9",
+            "width": 1000,
+            "height": 667,
+            "url": "https://course-api.com/images/store/product-3.jpeg",
+            "filename": "product-4.jpeg",
+            "size": 49641,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-3.jpeg",
+                "width": 54,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-3.jpeg",
+                "width": 768,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-3.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recBohCqQsot4Q4II",
+      "fields": {
+        "company": "caressa",
+        "colors": [
+          "#ff0000",
+          "#0000ff"
+        ],
+        "price": 4599,
+        "name": "wooden table",
+        "image": [
+          {
+            "id": "attXaEED3KJcY2cjY",
+            "width": 1280,
+            "height": 1891,
+            "url": "https://course-api.com/images/store/product-4.jpeg",
+            "filename": "pexels-dominika-roseclay-1139785.jpg",
+            "size": 203105,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-4.jpeg",
+                "width": 24,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-4.jpeg",
+                "width": 512,
+                "height": 756
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-4.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recDG1JRZnbpRHpoy",
+      "fields": {
+        "company": "caressa",
+        "colors": [
+          "#ff0000",
+          "#f15025"
+        ],
+        "price": 699,
+        "name": "dining table",
+        "image": [
+          {
+            "id": "attxkKEEgmBnutpwI",
+            "width": 1280,
+            "height": 1858,
+            "url": "https://course-api.com/images/store/product-5.jpeg",
+            "filename": "product-8.jpg",
+            "size": 281908,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-5.jpeg",
+                "width": 25,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-5.jpeg",
+                "width": 512,
+                "height": 743
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-5.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recNWGyP7kjFhSqw3",
+      "fields": {
+        "company": "liddy",
+        "colors": [
+          "#0000ff"
+        ],
+        "price": 6999,
+        "name": "sofa set",
+        "image": [
+          {
+            "id": "att5iyl4TJvd3oepN",
+            "width": 1000,
+            "height": 625,
+            "url": "https://course-api.com/images/store/product-6.jpeg",
+            "filename": "product-1.jpeg",
+            "size": 56151,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-6.jpeg",
+                "width": 58,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-6.jpeg",
+                "width": 819,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-6.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recZEougL5bbY4AEx",
+      "fields": {
+        "company": "marcos",
+        "colors": [
+          "#00ff00",
+          "#f15025",
+          "#ff0000"
+        ],
+        "price": 899,
+        "name": "modern bookshelf",
+        "image": [
+          {
+            "id": "attDj1C6GxJMsJ1he",
+            "width": 1280,
+            "height": 720,
+            "url": "https://course-api.com/images/store/product-7.jpeg",
+            "filename": "product-7.jpg",
+            "size": 162415,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-7.jpeg",
+                "width": 64,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-7.jpeg",
+                "width": 910,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-7.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recjMK1jgTb2ld7sv",
+      "fields": {
+        "company": "liddy",
+        "colors": [
+          "#f15025"
+        ],
+        "price": 2199,
+        "name": "emperor bed",
+        "image": [
+          {
+            "id": "attiwrd7gSI1oGxRK",
+            "width": 1280,
+            "height": 720,
+            "url": "https://course-api.com/images/store/product-8.jpeg",
+            "filename": "product-6.jpg",
+            "size": 178908,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-8.jpeg",
+                "width": 64,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-8.jpeg",
+                "width": 910,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-8.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recmg2a1ctaEJNZhu",
+      "fields": {
+        "company": "marcos",
+        "colors": [
+          "#00ff00",
+          "#0000ff"
+        ],
+        "featured": true,
+        "price": 3995,
+        "name": "utopia sofa",
+        "image": [
+          {
+            "id": "attqutUt355traBeS",
+            "width": 1280,
+            "height": 846,
+            "url": "https://course-api.com/images/store/product-9.jpeg",
+            "filename": "product-3.jpg",
+            "size": 196312,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-9.jpeg",
+                "width": 54,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-9.jpeg",
+                "width": 775,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-9.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recvKMNR3YFw0bEt3",
+      "fields": {
+        "company": "liddy",
+        "colors": [
+          "#ff0000",
+          "#00ff00"
+        ],
+        "featured": true,
+        "price": 2998,
+        "name": "entertainment center",
+        "image": [
+          {
+            "id": "atttOzyYI8P1XfJu8",
+            "width": 1280,
+            "height": 924,
+            "url": "https://course-api.com/images/store/product-10.jpeg",
+            "filename": "product-2.jpg",
+            "size": 195175,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-10.jpeg",
+                "width": 50,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-10.jpeg",
+                "width": 709,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-10.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxaXFy5IW539sgM",
+      "fields": {
+        "company": "ikea",
+        "colors": [
+          "#00ff00",
+          "#ff0000"
+        ],
+        "price": 1099,
+        "name": "albany sectional",
+        "image": [
+          {
+            "id": "attjWNxk7KKzcLPDx",
+            "width": 1000,
+            "height": 652,
+            "url": "https://course-api.com/images/store/product-11.jpeg",
+            "filename": "product-1.jpeg",
+            "size": 61946,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-11.jpeg",
+                "width": 55,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-11.jpeg",
+                "width": 785,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-11.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recyqtRglGNGtO4Q5",
+      "fields": {
+        "company": "liddy",
+        "colors": [
+          "#222"
+        ],
+        "price": 999,
+        "name": "leather sofa",
+        "image": [
+          {
+            "id": "attnZHyyOUTBzJ1ZD",
+            "width": 1280,
+            "height": 960,
+            "url": "https://course-api.com/images/store/product-12.jpeg",
+            "filename": "product-5.jpg",
+            "size": 189559,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://course-api.com/images/store/product-12.jpeg",
+                "width": 48,
+                "height": 36
+              },
+              "large": {
+                "url": "https://course-api.com/images/store/product-12.jpeg",
+                "width": 683,
+                "height": 512
+              },
+              "full": {
+                "url": "https://course-api.com/images/store/product-12.jpeg",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "articles": [
+    {
+      "title": "Choosing the Perfect Sofa for Your Living Room",
+      "author": "John Smith",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia, est non auctor aliquet, nisi dolor tincidunt dolor, ut tincidunt eros augue non metus.",
+      "publishedAt": "2023-06-30",
+      "tags": ["furniture", "sofa", "living room"],
+      "image": "https://images.unsplash.com/photo-1618221381711-42ca8ab6e908?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80",
+      "relatedArticles": ["https://example.com/articles/best-coffee-tables", "https://example.com/articles/choosing-curtains"]
+    },
+    {
+      "title": "The Art of Selecting Dining Chairs",
+      "author": "Emily Johnson",
+      "content": "In this article, we will explore the various factors to consider when choosing dining chairs for your home. From style to comfort, we'll help you make the right choice.",
+      "publishedAt": "2023-06-28",
+      "tags": ["furniture", "dining chairs", "home decor"],
+      "image": "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "relatedArticles": ["https://example.com/articles/essential-dining-room-furniture", "https://example.com/articles/tips-for-table-setting"]
+    },
+    {
+      "title": "Creating a Cozy Bedroom with the Perfect Bed",
+      "author": "Sarah Thompson",
+      "content": "Your bed is the centerpiece of your bedroom, and finding the perfect one can make all the difference. Discover how to create a cozy and inviting bedroom with the right bed.",
+      "publishedAt": "2023-06-25",
+      "tags": ["furniture", "bedroom", "bed"],
+      "image": "https://images.unsplash.com/photo-1633944095397-878622ebc01c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+      "relatedArticles": ["https://example.com/articles/choosing-nightstands", "https://example.com/articles/bedding-essentials"]
+    },
+    {
+      "title": "The Timeless Elegance of Vintage Furniture",
+      "author": "Michael Johnson",
+      "content": "Nulla facilisi. Sed a velit tincidunt, tincidunt nisi vel, dapibus elit.",
+      "publishedAt": "2023-06-20",
+      "tags": ["vintage", "furniture", "elegance"],
+      "image": "https://unsplash.com/photos/oujKSaZlMFY",
+      "relatedArticles": ["https://example.com/articles/antique-hunting-guide"]
+    },
+    {
+      "title": "Top 5 Space-Saving Furniture Solutions for Small Apartments",
+      "author": "David Lee",
+      "content": "Curabitur vestibulum eros nec quam faucibus, quis dictum risus consectetur.",
+      "publishedAt": "2023-06-10T14:20:00Z",
+      "tags": ["space-saving", "furniture", "small apartments"],
+      "image": "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0b3JhZ2UlMjBmdXJuaXR1cmV8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "relatedArticles": ["https://example.com/articles/apartment-decorating-tips"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "rating": 4.5,
+      "review": "I am extremely happy with this sofa. The design is modern and stylish, and it perfectly complements my living room. The cushions are comfortable, and the fabric feels durable. The assembly was straightforward, and the delivery was prompt. The only minor issue I had was with one of the legs, which was slightly uneven, but I easily fixed it. Overall, I highly recommend this sofa.",
+      "date": "2023-06-15"
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "rating": 5,
+      "review": "Excellent quality products. Will definitely buy again.",
+      "date": "2023-06-20"
+    },
+    {
+      "id": 3,
+      "name": "David Thompson",
+      "rating": 3.5,
+      "review": "The coffee table looks great in my living room, but I have a few reservations about its quality. The design is appealing, and the size is ideal for my space. However, the table arrived with a small dent on one corner. Also, the assembly instructions were a bit confusing, and it took longer than expected to put it together. It serves its purpose, but I expected better quality control.",
+      "date": "2023-06-25"
+    },
+    {
+      "id": 4,
+      "name": "Sophia Brown",
+      "rating": 5,
+      "review": "I recently purchased this dining table, and it exceeded my expectations. The build quality is excellent, and the wood finish looks elegant. It comfortably seats six people, and the size is perfect for my dining area. Assembly was a breeze, with clear instructions provided. I appreciate the attention to detail and the sturdy construction of this table. Highly recommended!",
+      "date": "2023-06-28"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "rating": 5,
+      "review": "Poor product quality. Disappointed with the purchase.",
+      "date": "2023-07-01"
+    }
+  ]
+}

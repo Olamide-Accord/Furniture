@@ -1,36 +1,42 @@
 header{
   position: fixed;
-  top: 1rem;
+  background-color: var(--primary-2);
+  top: 0;
   left: 7%;
   right: 7%;
-  padding: 1rem;
+}
+nav{
+  padding: 0.35rem 1rem;
+  margin-top: 1rem;
   border-top: 2px solid var(--secondary);
   border-bottom: 2px solid var(--secondary);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-nav{
+.navigation{
   display: flex;
   align-items: center;
   gap: 1.25rem;
 }
 .system-nav{
   border: 1px solid var(--secondary-2);
-  padding: 0.5rem 0.75rem;
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
   border-radius: 0.35rem;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 .nav-links a{
-  font-weight: 300;
+  font-weight: 400;
   margin-right: 0.6rem;
   font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
 }
-header h3{
+header h4{
   font-size: 1.85rem;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
 }
 .nav-cart{
   display: flex;
@@ -38,10 +44,10 @@ header h3{
   gap: 1rem;
 }
 .icon-like{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .nav-cart .cart-icon span{
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 400;
   font-family: 'Work Sans', sans-serif;
 }
@@ -49,10 +55,11 @@ header h3{
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  cursor: pointer;
 }
 .nav-cart .cart-icon .amount{
   border: 1px solid var(--secondary-2);
   border-radius: 45%;
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 0.45rem;
+  font-size: 0.85rem;
 }

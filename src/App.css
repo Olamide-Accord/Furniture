@@ -13,13 +13,18 @@
   --text-secondary: #000;
   --purple: #f81ce5;
   --cyan: #22b8cf;
+  --red: #ff0000;
+  --green: #09f309;
+  --mainTransition: all 0.3s linear;
+  --lightSpacing: 0.25rem;
+  --mainSpacing: 0.35rem;
   color-scheme: dark;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 html{
   font-size: 95%;
@@ -33,11 +38,11 @@ html{
   -webkit-text-size-adjust: 100%;
 }
 body{
-  background-color: var(--primary);
+  background-color: var(--primary-2);
   color: var(--text-base);
 }
-main{
-  padding: 7rem 7% 3rem;
+section{
+  padding: 2.5rem 0;
 }
 ul{
   list-style-type: none;
@@ -48,8 +53,52 @@ a{
   font-weight: 500;
   color: var(--text-base)
 }
-h1, h2{
-  font-family: 'Kanit', sans-serif;
+h2{
+  font-family: 'Anton', sans-serif;
+}
+article{
+  padding: 2.5rem 7%;
+}
+.title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.container{
+  border-top: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+  margin: 1.5rem 0;
+}
+.row{
+  margin: 0.5rem auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.card{
+  flex-basis: 20rem;
+  border-left: 1px solid var(--secondary);
+}
+.card:last-of-type{
+  border-right: 1px solid var(--secondary);
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+.btn{
+  border: 1px solid var(--secondary);
+  background: transparent;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: var(--mainSpacing);
 }
 
 @media (prefers-color-scheme: light) {

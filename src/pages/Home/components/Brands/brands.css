@@ -1,0 +1,15 @@
+.brands .row{
+  width: 55%;
+  margin: auto;
+}
+.brands .card{
+  flex-basis: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card span{
+  cursor: pointer;
+  font-size: 3.5rem;
+}

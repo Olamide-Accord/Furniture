@@ -1,0 +1,52 @@
+.articles .row{
+  gap: 2rem;
+  margin: 2rem auto;
+}
+.article-card{
+  width: 85%;
+  border: 1px solid var(--secondary);
+  flex-basis: 25rem;
+  padding: 0.75rem;
+}
+.img-wrapper{
+  width: 100%;
+  height: 15rem;
+}
+.img-wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article-desc{
+  padding: 1rem 0.5rem;
+}
+.article-desc .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-desc .header div{
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+.article-desc .header div span{
+  font-size: 1.05rem;
+}
+.article-desc .header div h6{
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+.article-desc .body{
+  margin-top: 1rem;
+}
+h5{
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  letter-spacing: 1px;
+}
+p{
+  font-size: 1.05rem;
+  font-weight: 200;
+}
