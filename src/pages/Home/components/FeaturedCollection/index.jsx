@@ -28,7 +28,7 @@ const index = () => {
               const { id, fields: {company, colors, featured, price, name, image}} = item;
               return (
                 <div className="card" key={id}>
-                  <div className='collections-image'>
+                  <div className='card-image'>
                     {
                       image.map((img) => {
                         const {id, width, height, url} = img;

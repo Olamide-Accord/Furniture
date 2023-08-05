@@ -1,0 +1,22 @@
+.wish-hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  
+}
+.wish-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wishlist-icon{
+  font-size: 1.75rem;
+}
+.wish-hero h4{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}

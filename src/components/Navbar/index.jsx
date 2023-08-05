@@ -1,18 +1,30 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { CgMenuRightAlt } from 'react-icons/cg'
 import { FaSun, FaMoon, FaRegHeart } from 'react-icons/fa'
 import { IoIosArrowForward } from 'react-icons/io';
 import Cart from "@components/Cart"
+import MobileNav from '../MobileNav';
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
-  const [cart, setCart] = useState(false);
-  const openCart = () => setCart(true);
-  const closeCart = () => setCart(false);
+  const [cartOpen, setCartOpen] = useState(false);
+  const openCart = () => setCartOpen(true);
+  const closeCart = () => setCartOpen(false);
+  const [mobileNav, setMobileNav] = useState(false);
+  const openMobileNav = () => setMobileNav(true);
+  const closeMobileNav = () => setMobileNav(false);
+
+  const total = useSelector((state) => state.total)
+  
   return (
     <header>
       <nav>
         <div className="navigation">
+          <div className="menu-bar" onClick={openMobileNav}>
+            <CgMenuRightAlt />
+          </div>
           <div className='system-nav'>
             <FaSun />
             <IoIosArrowForward />
@@ -25,7 +37,7 @@ const Navbar = () => {
         </div>
       
         <Link to='/'>
-          <h4>Furniture</h4>
+          <h4 className='logo '>Furniture</h4>
         </Link>
         
         <div className='nav-cart'>
@@ -36,13 +48,14 @@ const Navbar = () => {
           </Link>
           <div className='cart-icon' onClick={openCart}>
             <span>Cart</span>
-            <span className="amount">0</span>
+            <span className="amount">{total}</span>
           </div>
           {
-            cart && <Cart cart={cart} close={closeCart} />
+            cartOpen && <Cart cartOpen={cartOpen} close={closeCart} />
           }
         </div>
       </nav>
+      {mobileNav && <MobileNav close={closeMobileNav} />}
     </header>
   )
 }

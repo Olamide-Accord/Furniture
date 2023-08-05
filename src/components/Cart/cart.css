@@ -54,3 +54,33 @@
     width: 100%;
   }
 }
+
+.empty-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.empty-cart-content{
+  text-align: center;
+}
+.empty-bag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border: 1px dotted var(--primary);
+  border-radius: 50%;
+  font-size: 2rem;
+  margin: 0.5rem auto;
+  background-color: var(--secondary-2);
+  color: var(--primary);
+}
+.empty-cart-content h3{
+  font-family: Ka;
+}
+.empty-cart-content a:hover{
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--secondary-2);
+}

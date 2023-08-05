@@ -1,8 +1,11 @@
 import React from 'react'
+import BlogPost from './components/BlogPosts'
 
 const index = () => {
   return (
-    <div>index</div>
+    <section>
+      <BlogPost />
+    </section>
   )
 }
 

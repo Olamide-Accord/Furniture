@@ -1,5 +1,5 @@
 .brands .row{
-  width: 55%;
+  width: 65%;
   margin: auto;
 }
 .brands .card{
@@ -12,4 +12,10 @@
 .card span{
   cursor: pointer;
   font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .brands .row{
+    width: 95%;
+  }
 }

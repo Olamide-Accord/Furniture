@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '@assets/image1.jpg'
+import hero from '@assets/hero.jpg'
 import './hero.css'
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
         <button>wood</button>
       </div>
       <div className="hero-image">
-        <img src={image} alt="Hero Image" />
+        <img src={hero} alt="Hero Image" />
       </div>
     </article>
   )

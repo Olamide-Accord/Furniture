@@ -2,8 +2,9 @@ header{
   position: fixed;
   background-color: var(--primary-2);
   top: 0;
-  left: 7%;
-  right: 7%;
+  left: 5%;
+  right: 5%;
+  z-index: 20;
 }
 nav{
   padding: 0.35rem 1rem;
@@ -19,6 +20,12 @@ nav{
   align-items: center;
   gap: 1.25rem;
 }
+.menu-bar{
+  display: none;
+  color: var(--secondary-2);
+  font-size: 1.35rem;
+  cursor: pointer;
+}
 .system-nav{
   border: 1px solid var(--secondary-2);
   padding: 0.25rem 0.5rem;
@@ -32,12 +39,7 @@ nav{
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
 }
-header h4{
-  font-size: 1.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: 'Kanit', sans-serif;
-}
+
 .nav-cart{
   display: flex;
   align-items: center;
@@ -45,6 +47,7 @@ header h4{
 }
 .icon-like{
   font-size: 1.25rem;
+  margin-top: 0.5rem;
 }
 .nav-cart .cart-icon span{
   font-size: 0.9rem;
@@ -59,7 +62,20 @@ header h4{
 }
 .nav-cart .cart-icon .amount{
   border: 1px solid var(--secondary-2);
-  border-radius: 45%;
-  padding: 0.45rem;
-  font-size: 0.85rem;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .menu-bar {
+    display: block;
+  }
+  .nav-links{
+    display: none;
+  }
 }
