@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
-  --primary: #111;
-  --primary-2: #1e1e1e;
+  --primary: hsl(231 15% 11%);
+  --primary-2: hsl(231 15% 18%);
+  --base: hsl(231 15% 4%);
   --secondary: #fff;
   --secondary-2: #f1f3f5;
   --hover: hsla(0, 0%, 100%, .075);
@@ -11,6 +12,7 @@
   --text-base: #fff;
   --text-primary: #fff;
   --text-secondary: #000;
+  --emphasis: #ff7ac6;
   --purple: #f81ce5;
   --cyan: #22b8cf;
   --red: #ff0000;
@@ -18,6 +20,8 @@
   --mainTransition: all 0.3s linear;
   --lightSpacing: 0.25rem;
   --mainSpacing: 0.35rem;
+  --radius: 0.5rem;
+  --opacity-1: 1;
   color-scheme: dark;
 }
 *{
@@ -85,6 +89,7 @@ article{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
   padding: 0;
 }
 .card{

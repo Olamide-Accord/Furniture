@@ -84,3 +84,18 @@
   padding-bottom: 2px;
   border-bottom: 1px solid var(--secondary-2);
 }
+
+.cart-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.items{
+  display: flex;
+  gap: 1rem;
+}
+.item-image{
+  width: 10rem;
+  height: 8rem;
+  border-radius: 0.35rem;
+}

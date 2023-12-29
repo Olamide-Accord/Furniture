@@ -1,23 +1,21 @@
 import React from 'react';
 import './all-products.css';
 import { FaSearch, FaShoppingCart } from "react-icons/fa"
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchShop } from '@store/reducer/reducerSlice';
 
 const AllProducts = () => {
-  const [products, setProducts] = React.useState([])
-  const fetchProducts = async() => {
-    const response = await fetch('http://localhost:3000/collection');
-    const data = await response.json();
-    setProducts(data)
-  }
+  const { shop } = useSelector(state => state.cart);
+  const dispatch = useDispatch()
   
   React.useEffect(() => {
-    fetchProducts()
-  }, [])
+    dispatch(fetchShop())
+  }, [dispatch])
   return (
     <div className="all-products">
       <div className='row'>
         {
-          products.map((item) => {
+          shop.map((item) => {
             const { id, fields: { price, name, image}} = item;
             return (
               <div className="card" key={id}>

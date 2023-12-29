@@ -11,7 +11,6 @@ const index = () => {
     const response = await fetch('http://localhost:3000/articles');
     const data = await response.json();
     setArticle(data);
-    console.log(data)
   }
 
   useEffect(() => {

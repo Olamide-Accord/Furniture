@@ -3,6 +3,7 @@
   [
     {
       "id": "rec43w3ipXvP28vog",
+      "quantity": 1,
       "fields": {
         "company": "ikea",
         "colors": [
@@ -10,7 +11,7 @@
           "#222"
         ],
         "featured": true,
-        "price": 999,
+        "price": 999.19,
         "name": "high-back bench",
         "image": [
           {
@@ -44,13 +45,14 @@
     },
     {
       "id": "rec4f2RIftFCb7aHh",
+      "quantity": 1,
       "fields": {
         "company": "marcos",
         "colors": [
           "#f15025",
           "#222"
         ],
-        "price": 7999,
+        "price": 7999.79,
         "name": "albany table",
         "image": [
           {
@@ -84,6 +86,7 @@
     },
     {
       "id": "rec8kkCmSiMkbkiko",
+      "quantity": 1,
       "fields": {
         "company": "caressa",
         "colors": [
@@ -91,7 +94,7 @@
           "#0000ff",
           "#f15025"
         ],
-        "price": 2599,
+        "price": 2599.29,
         "name": "accent chair",
         "image": [
           {
@@ -125,13 +128,14 @@
     },
     {
       "id": "recBohCqQsot4Q4II",
+      "quantity": 1,
       "fields": {
         "company": "caressa",
         "colors": [
           "#ff0000",
           "#0000ff"
         ],
-        "price": 4599,
+        "price": 4599.49,
         "name": "wooden table",
         "image": [
           {
@@ -165,13 +169,14 @@
     },
     {
       "id": "recDG1JRZnbpRHpoy",
+      "quantity": 1,
       "fields": {
         "company": "caressa",
         "colors": [
           "#ff0000",
           "#f15025"
         ],
-        "price": 699,
+        "price": 699.19,
         "name": "dining table",
         "image": [
           {
@@ -205,12 +210,13 @@
     },
     {
       "id": "recNWGyP7kjFhSqw3",
+      "quantity": 1,
       "fields": {
         "company": "liddy",
         "colors": [
           "#0000ff"
         ],
-        "price": 6999,
+        "price": 6999.99,
         "name": "sofa set",
         "image": [
           {
@@ -244,6 +250,7 @@
     },
     {
       "id": "recZEougL5bbY4AEx",
+      "quantity": 1,
       "fields": {
         "company": "marcos",
         "colors": [
@@ -251,7 +258,7 @@
           "#f15025",
           "#ff0000"
         ],
-        "price": 899,
+        "price": 899.29,
         "name": "modern bookshelf",
         "image": [
           {
@@ -285,12 +292,13 @@
     },
     {
       "id": "recjMK1jgTb2ld7sv",
+      "quantity": 1,
       "fields": {
         "company": "liddy",
         "colors": [
           "#f15025"
         ],
-        "price": 2199,
+        "price": 2199.99,
         "name": "emperor bed",
         "image": [
           {
@@ -324,6 +332,7 @@
     },
     {
       "id": "recmg2a1ctaEJNZhu",
+      "quantity": 1,
       "fields": {
         "company": "marcos",
         "colors": [
@@ -331,7 +340,7 @@
           "#0000ff"
         ],
         "featured": true,
-        "price": 3995,
+        "price": 3995.59,
         "name": "utopia sofa",
         "image": [
           {
@@ -365,6 +374,7 @@
     },
     {
       "id": "recvKMNR3YFw0bEt3",
+      "quantity": 1,
       "fields": {
         "company": "liddy",
         "colors": [
@@ -372,7 +382,7 @@
           "#00ff00"
         ],
         "featured": true,
-        "price": 2998,
+        "price": 2998.89,
         "name": "entertainment center",
         "image": [
           {
@@ -406,6 +416,7 @@
     },
     {
       "id": "recxaXFy5IW539sgM",
+      "quantity": 1,
       "fields": {
         "company": "ikea",
         "colors": [
@@ -446,12 +457,13 @@
     },
     {
       "id": "recyqtRglGNGtO4Q5",
+      "quantity": 1,
       "fields": {
         "company": "liddy",
         "colors": [
           "#222"
         ],
-        "price": 999,
+        "price": 999.99,
         "name": "leather sofa",
         "image": [
           {

@@ -1,20 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import './collection.css'
 import { Link } from 'react-router-dom';
-import { FaSearch, FaShoppingCart } from 'react-icons/fa'
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCart } from '@store/reducer/reducerSlice';
+import { fetchShop } from '@store/reducer/reducerSlice';
 
 const index = () => {
-  const [featured, setFeatured] = useState([]);
+  const { shop } = useSelector((state) => state.cart)
+  const dispatch = useDispatch()
 
-  const fetchFeaturedCollection = async() => {
-    const response = await fetch('http://localhost:3000/collection');
-    const data = await response.json();
-    setFeatured(data)
-  }
-  
   useEffect(() => {
-    fetchFeaturedCollection()
-  }, [])
+    dispatch(fetchShop())
+  }, [dispatch])
 
   return (
     <section className='featured-article'>
@@ -24,27 +21,19 @@ const index = () => {
       <div className="container">
         <div className="row">
           {
-            featured.slice(5, 9).map((item) => {
-              const { id, fields: {company, colors, featured, price, name, image}} = item;
+            shop.slice(7, 10).map((item) => {
+              const { id, fields: { price, name, image}} = item;
               return (
-                <div className="card" key={id}>
-                  <div className='card-image'>
+                <Link to={`/product/${name}`} className="box" key={id}>
+                  <div className='box-image'>
                     {
                       image.map((img) => {
-                        const {id, width, height, url} = img;
+                        const {id, url, thumbnails: {large: width, height}} = img;
                         return (
-                          <img src={url} key={id} width={width} height={height}  />
+                          <img src={url} key={id} alt={name} width={width} height={height} />
                         )
                       })
                     }
-                    <div className="image-icons">
-                      <span>
-                        <FaSearch />
-                      </span>
-                      <span>
-                        <FaShoppingCart />
-                      </span>
-                    </div>
                   </div>
                   <div className="collections-desc">
                     {
@@ -52,7 +41,7 @@ const index = () => {
                     }
                     <h6>${price}</h6>
                   </div>
-                </div>
+                </Link>
               )
             })
           }

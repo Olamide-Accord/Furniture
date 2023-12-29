@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import './cart.css'
 import { FaRegTrashAlt, FaTimes } from "react-icons/fa";
 import { LuShoppingBag } from "react-icons/lu"
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { clearCart } from '@store/reducer/reducerSlice';
 
-const index = ({ close, cartOpen }) => {
 
-  const {cart, total } = useSelector(state => state)
+const index = ({ close }) => {
+  const {cart, total } = useSelector(state => state.cart);
+  const dispatch = useDispatch()
   return (
     <div className={`${cart ? 'open-cart cart-modal' : 'cart-modal'}`}>
       <div className="cart-container">
@@ -18,7 +20,7 @@ const index = ({ close, cartOpen }) => {
               close
             </span>
           </button>
-          <button>
+          <button onClick={() => dispatch(clearCart())}>
             <FaRegTrashAlt />
             <span className="delete">
               clear cart
@@ -31,7 +33,7 @@ const index = ({ close, cartOpen }) => {
         </div>
 
         {
-          cart.length === 0 ? <EmptyCart /> : <CartItems />
+          cart.length === 0 ? <EmptyCart /> : <CartItems cart={cart} />
         }
       </div>
     </div>
@@ -54,10 +56,32 @@ const EmptyCart = () => {
   )
 }
 
-const CartItems = () => {
+const CartItems = ({cart}) => {
+  console.log(cart)
   return (
-    <div>
-      Cart Items
+    <div style={{margin: '1rem 0'}}>
+      <div className='cart-content'>
+        {
+          cart?.map((item, index) => {
+            const { fields: {company, colors, featured, price, name, image}}= item;
+            return (
+              <div className='items' key={index}>
+                {
+                  image.map((img) => {
+                    const {id, thumbnails: {small: {url}}} = img;
+                    return (
+                      <img src={url} key={id} className='item-image' />
+                    )
+                  })
+                }
+                <div className="items-desc">
+
+                </div>
+              </div>
+            )
+          })
+        }
+      </div>
     </div>
   )
 }

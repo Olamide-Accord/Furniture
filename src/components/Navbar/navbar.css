@@ -1,6 +1,5 @@
 header{
   position: fixed;
-  background-color: var(--primary-2);
   top: 0;
   left: 5%;
   right: 5%;
@@ -8,6 +7,7 @@ header{
 }
 nav{
   padding: 0.35rem 1rem;
+  background-color: var(--primary);
   margin-top: 1rem;
   border-top: 2px solid var(--secondary);
   border-bottom: 2px solid var(--secondary);

@@ -1,5 +1,28 @@
-.featured-article .card{
-  flex-basis: 19rem;
+.featured-article .row{
+  padding: 1.5rem 0;
+  gap: 1rem;
+}
+.featured-article .box{
+  flex-basis: 24rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-radius: 1rem;
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: 300ms;
+}
+.featured-article .box:hover{
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.featured-article .box .box-image{
+  padding: 1rem;
+  width: 100%;
+  height: 16rem;
+}
+.featured-article .box .box-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
 }
 .collections-desc{
   padding: 1rem 0;
